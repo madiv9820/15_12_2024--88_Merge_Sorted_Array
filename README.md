@@ -1,4 +1,4 @@
-- ## Approach 4:- Two Pointers without extra memory
+- ## Approach 3:- Two Pointers without extra memory
 
     - ### Intuition:
         The task is to merge two sorted arrays (`nums1` and `nums2`) into a single sorted array. Since `nums1` already has enough space to accommodate all elements of `nums2`, the idea is to merge the arrays starting from the end of `nums1`. This allows us to avoid overwriting elements in `nums1` while we perform the merge.
